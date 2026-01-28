@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: 'https://bearlab-backend-d9awbhgfe4c6abdq.southeastasia-01.azurewebsites.net/api',
   headers: {
     'Content-Type': 'application/json',
   },
