@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ||'https://supavit-bjh5hjgpf2frh2at.eastasia-01.azurewebsites.net/api',
+  baseURL: 'https://supavit-bjh5hjgpf2frh2at.eastasia-01.azurewebsites.net/api',
   // baseURL: 'http://127.0.0.1:8000/api', // Local API
   headers: {
     'Content-Type': 'application/json',
